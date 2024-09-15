@@ -26,7 +26,14 @@
                 from around the globe!
             </p>
     
-            <!-- Embedded YouTube video -->
+            <!-- Embedded video with controls (if the tool requires it) -->
+            <video controls>
+                <source src="promo_video.mp4" type="video/mp4">
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                Your browser does not support the video tag.
+            </video>
+    
+            <!-- YouTube video embedding -->
             <iframe width="454" height="255" src="https://www.youtube.com/embed/B_-HF-RNdjw" 
                 title="TechCon SoCal 2024 Promo Video" frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -34,6 +41,7 @@
             </iframe>
         </section>
     </main>
+    
     
     <footer>
         <p>&copy; 2024 Techncon Conference. All rights reserved.</p>
